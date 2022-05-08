@@ -13,6 +13,7 @@ from time import sleep
 def Download_img(header, savepath, ImgStartCount):
     # mkt，非必要，默认根据访问IP地址返回所在地区数据，指定 mkt=ZH-CN 返回中国区数据，其它可选地区：EN-US, JA-JP, EN-AU, EN-UK, DE-DE, EN-NZ, EN-CA（区分大小写）
     # idx = 开始图片位置 n是结束最多8张
+    # Test
     url_temp = "http://bing.plmeizi.com/?page={0}"
     url = url_temp.format(ImgStartCount)
     print(url)
