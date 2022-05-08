@@ -116,7 +116,7 @@ if __name__ == '__main__':
     }
    #  检查文件夹是否存在
     CheckDirExists(SavePath)
-    for x in range(142, 234, 1):
+    for x in range(148, 234, 1):
         print(x)
         Download_img(header, SavePath, str(x))
 
