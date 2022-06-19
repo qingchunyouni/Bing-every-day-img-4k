@@ -30,7 +30,7 @@ def Download_img(ImgStartCount):
     # time.sleep(3)
     Browser.execute_script(
         "window.open('http://bing.plmeizi.com/view/848')")
-    time.sleep(5)
+    time.sleep(10)
     # Browser.refresh()
     # time.sleep(3)
     input_xpath = Browser.find_elements_by_xpath(
